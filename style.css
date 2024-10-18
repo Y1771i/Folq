@@ -1,0 +1,128 @@
+
+
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+section {
+      padding-left: calc(10.8vw - 17.6px);
+      padding-right: calc(6.08vw - 19.7px);
+      padding-top: calc(0.33vw + 41.2px);
+}
+
+.main_wrapper {
+      background-image: url(./img/bgLogo.png);
+      background-repeat: no-repeat;
+      background-size: calc(23.8vw + 89.4px);
+      background-position: top calc(4.86vw + 58.7px) left calc(70vw - 69.7px);
+}
+
+.logo {
+      width: calc(8.8vw + 181.8px);
+}
+
+.info {
+      margin-top: calc(6.29vw + 4.38px);
+      display: flex;
+      flex-direction: row;
+      gap: calc(14.4vw - 24.2px);
+      flex-wrap: wrap;
+}
+
+.data {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+}
+
+.data span {
+      font-family: "TT Hoves", sans-serif;
+      font-size: 21px;
+      line-height: 29.4px;
+}
+
+.data h3 {
+      font-family: "TT Hoves", sans-serif;
+      font-size: 21px;
+      font-weight: 700;
+      line-height: 29.4px;
+}
+
+h1 {
+      margin-top: calc(3.09vw + 36.3px);
+      font-family: "Chava", sans-serif;
+      font-size: calc(4.19vw + 26.2px);
+      line-height: 110%;
+}
+
+p {
+      margin-top: calc(2.2vw + 11.7px);
+      font-family: "TT Hoves", sans-serif;
+      font-size: calc(0.99vw + 14.2px);
+      font-weight: 300;
+      line-height: 140%;
+}
+
+.buttons {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+      flex-wrap: wrap;
+}
+
+.buttons button {
+      width: 328px;
+      height: 61px;
+      border-radius: 12px;
+      background-color: #6e3aba;
+      font-family: "TT Hoves", sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 21.2px;
+      text-align: center;
+      color: #ffffff;
+      border: none;
+      cursor: pointer;
+}
+
+.buttons button:nth-child(2) {
+      background-color: #ffffff;
+      color: #6e3aba;
+      border: 1px solid #6e3aba;
+}
+
+/* Page 2 */
+.emoji_wrapper {
+      padding-left: calc(10.8vw - 17.6px);
+      font-family: 'TT Hoves', sans-serif;
+}
+
+.emoji_wrapper h2{
+      font-size: calc(34px + (58 - 34) * ((100vw - 375px) / (1280 - 375)));
+      width: calc(35.6vw + 194.6px);
+      margin-bottom: calc(40px + (90 - 40) * ((100vw - 375px) / (1280 - 375)));
+      margin-top: calc(11.11vw + 17.7px);
+      font-weight: 500;
+}
+
+.emoji_block{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap:70px;
+}
+
+.block h3 {
+      font-size: 27px;
+}
+
+.block {
+      width: calc(13.55vw + 276.4px);
+}
+
+.block img{
+      width: calc(3.33vw + 167.3px);
+}
